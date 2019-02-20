@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="todo1">kanan</string>
+    <string name="todo2">kiri</string>
+    <string name="todo3">logo2</string>
+    <string name="Compare">Compare ,</string>
+    <string name="travel_save_mone">Travel, Save money.</string>
+    <string name="email">E-mail address</string>
+    <string name="passwd">Password</string>
+    <string name="login1">Login me</string>
+    <string name="don_t_have_account_create_it">Don\'t have account? Create it!</string>
 </resources>
