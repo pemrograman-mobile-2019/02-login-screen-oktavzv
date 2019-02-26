@@ -1,4 +1,4 @@
-package com.example.putraprima.myapplication;
+package com.example.oktavianyudha.myapplication;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.putraprima.myapplication", appContext.getPackageName());
+        assertEquals("com.example.oktavianyudha.myapplication", appContext.getPackageName());
     }
 }

@@ -12,8 +12,7 @@
         android:layout_height="200dp"
         android:layout_marginStart="300dp"
         android:src="@drawable/kanan"
-        android:contentDescription="@string/todo1"
-        android:layout_marginLeft="300dp" />
+        android:contentDescription="@string/todo1" />
 
     <ImageView
         android:layout_width="150dp"
@@ -21,17 +20,15 @@
         android:layout_marginTop="75dp"
         android:layout_marginStart="200dp"
         android:src="@drawable/kiri"
-        android:contentDescription="@string/todo2"
-        android:layout_marginLeft="200dp" />
+        android:contentDescription="@string/todo2" />
 
     <ImageView
-        android:layout_width="150dp"
-        android:layout_height="50dp"
-        android:src="@drawable/logo2"
-        android:layout_marginTop="50dp"
+        android:layout_width="172dp"
+        android:layout_height="67dp"
         android:layout_marginStart="30dp"
+        android:layout_marginTop="50dp"
         android:contentDescription="@string/todo3"
-        android:layout_marginLeft="30dp" />
+        android:src="@drawable/logo2" />
 
 
     <TextView
@@ -44,9 +41,7 @@
         android:text="@string/Compare"
         android:textColor="#000000"
         android:textSize="28sp"
-        android:textStyle="bold"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="27dp" />
+        android:textStyle="bold" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -55,11 +50,9 @@
         android:layout_alignParentBottom="true"
         android:layout_marginStart="27dp"
         android:layout_marginTop="275dp"
-        android:layout_marginBottom="292dp"
+        android:layout_marginBottom="302dp"
         android:text="@string/travel_save_mone"
-        android:textSize="28sp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="27dp" />
+        android:textSize="28sp" />
 
     <LinearLayout
         android:id="@+id/linear"
@@ -71,32 +64,30 @@
         android:paddingRight="30dp">
 
         <EditText
-            android:background="@drawable/edit_text_style"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingTop="10dp"
-            android:paddingStart="15dp"
-            android:paddingBottom="10dp"
-            android:paddingEnd="10dp"
+            android:autofillHints=""
+            android:background="@drawable/edit_text_style"
             android:hint="@string/email"
             android:inputType="textEmailAddress"
-            android:paddingLeft="15dp"
-            android:paddingRight="10dp" />
+            android:paddingStart="15dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="10dp" />
 
         <EditText
-            android:background="@drawable/edit_text_style"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingTop="10dp"
-            android:paddingStart="15dp"
-            android:paddingBottom="10dp"
-            android:paddingEnd="10dp"
             android:layout_marginTop="8dp"
             android:layout_marginBottom="8dp"
+            android:autofillHints=""
+            android:background="@drawable/edit_text_style"
             android:hint="@string/passwd"
             android:inputType="textPassword"
-            android:paddingLeft="15dp"
-            android:paddingRight="10dp" />
+            android:paddingStart="15dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="10dp" />
 
         <Button
             android:layout_width="match_parent"
@@ -104,7 +95,8 @@
             android:background="@drawable/rectangle"
             android:text="@string/login1"
             android:textAllCaps="false"
-            android:textColor="@android:color/white" />
+            android:textColor="@android:color/white"
+            android:textSize="22sp" />
 
     </LinearLayout>
 
@@ -124,9 +116,27 @@
             android:textSize="20sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.273"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.966" />
+            app:layout_constraintVertical_bias="0.965" />
+
+        <TextView
+            android:id="@+id/creteit1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/create_it"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.707"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.964" />
 
     </android.support.constraint.ConstraintLayout>
 
